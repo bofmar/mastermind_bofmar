@@ -1,6 +1,8 @@
 require "mastermind_bofmar/version"
 
 module MastermindBofmar
-  class Error < StandardError; end
-  # Your code goes here...
+  
 end
+
+require_relative "./mastermind_bofmar/player.rb"
+require_relative "./mastermind_bofmar/gamemaster.rb"

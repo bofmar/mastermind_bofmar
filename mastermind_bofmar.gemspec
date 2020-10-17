@@ -3,11 +3,11 @@ require_relative 'lib/mastermind_bofmar/version'
 Gem::Specification.new do |spec|
   spec.name          = "mastermind_bofmar"
   spec.version       = MastermindBofmar::VERSION
-  spec.authors       = ["bofmar"]
+  spec.authors       = ["Marios Mpofilakis"]
   spec.email         = ["bofmar@outlook.com"]
 
   spec.summary       = %q{A gem that emulates the Mastermind board game.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/bofmar/mastermind_bofmar"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 

@@ -1,5 +1,7 @@
 require "bundler/setup"
 require "mastermind_bofmar"
+require "rspec/collection_matchers"
+require_relative "../lib/mastermind_bofmar.rb"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
