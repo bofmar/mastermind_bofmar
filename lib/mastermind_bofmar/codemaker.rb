@@ -10,7 +10,7 @@ module MastermindBofmar
       end
 
       # for testing
-      puts @code
+      # puts @code
     end
 
     def code

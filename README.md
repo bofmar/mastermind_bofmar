@@ -1,44 +1,29 @@
 # MastermindBofmar
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mastermind_bofmar`. To experiment with that code, run `bin/console` for an interactive prompt.
+Mastermind game that you can play in the console. Made as part of the Odin Project curriculum. Created with ruby.
 
-TODO: Delete this and the text above, and describe your gem
+## Game Description
+
+Mastermind or Master Mind is a code-breaking game for two players. The modern game with pegs was invented in 1970 by Mordecai Meirowitz, an Israeli postmaster and telecommunications expert.[1][2] It resembles an earlier pencil and paper game called Bulls and Cows that may date back a century or more. 
+
+## Rules
+
+You and the computer will take the roles of the code-maker and the code-breaker. The code-maker will create a secret 4 digit code that will use number from 1 to 6. The code-breaker will then need to guess the secret code within 12 turns, otherwise the code-maker wins. After each guess the code-maker must inform the code-breaker how close he is to breaking the code by putting down a number of pegs. Red pegs represent a number that exists in the code and is in the correct place. White pegs represent a number that exists in the code but is in the wrong place
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Clone the repo to your machine and navigate to the root folder of the application. Then run the following command:
 
-```ruby
-gem 'mastermind_bofmar'
-```
+    bin/console
 
-And then execute:
 
-    $ bundle install
+## Demo
 
-Or install it yourself as:
+## Gems Used
 
-    $ gem install mastermind_bofmar
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/mastermind_bofmar. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/mastermind_bofmar/blob/master/CODE_OF_CONDUCT.md).
-
+* [tty-prompt](https://github.com/piotrmurach/tty-prompt) : Provides a great way for getting inputs from the player.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the MastermindBofmar project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/mastermind_bofmar/blob/master/CODE_OF_CONDUCT.md).
