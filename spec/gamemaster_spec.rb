@@ -7,7 +7,7 @@ module MastermindBofmar
     context "#initialize" do
       it "initializes with a turn count of 0" do
         gm = Gamemaster.new
-        expect(gm.turn_count).to eq 0
+        expect(gm.turn_count).to eq 1
       end
     end
 
@@ -15,7 +15,7 @@ module MastermindBofmar
       it "increments the trun count by one" do
         gm = Gamemaster.new
         gm.send(:incr_turn)
-        expect(gm.turn_count).to eq 1
+        expect(gm.turn_count).to eq 2
       end
 
       it "returns true when the game reaches the 12th turn" do
