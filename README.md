@@ -20,6 +20,8 @@ Clone the repo to your machine and navigate to the root folder of the applicatio
 
 ## Demo
 
+![demo](https://github.com/bofmar/mastermind_bofmar/blob/main/masterMind.gif)
+
 ## Gems Used
 
 * [tty-prompt](https://github.com/piotrmurach/tty-prompt) : Provides a great way for getting inputs from the player.
